@@ -19,16 +19,21 @@
     align-items: center;
     gap: 40px;
 }
-.navbar button{
+.navbar button {
+    
     background: transparent;
     font-size: 15px;
+    /* line-height: 15px; */
     color: #49557e;
     border: 1px solid tomato;
     padding: 10px 30px;
+    padding-top: 9px;
+    padding-bottom: 11px;
     border-radius: 50px;
     cursor: pointer;
     transition: 0.3s;
 }
+
 .navbar button:hover{
     background-color: #fff4f2;
 }
